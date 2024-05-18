@@ -24,6 +24,10 @@ html,body,.container{
     justify-content: center;
 }
 
+.justify-spacebetween{
+    justify-content: space-between;
+}
+
 .flex-system1{
     display: flex;
     align-items: center;
@@ -36,9 +40,9 @@ html,body,.container{
     justify-content: space-between;
 }
 
-.h-10{
+/* .h-10{
     height: 10%;
-}
+} */
 
 .header{
     height: 100%;
@@ -64,12 +68,21 @@ html,body,.container{
 }
 
 .link{
+    background-image: url(../assets/header-upp.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 11vh;
+    width: 50vw;
     display: flex;
-    gap: 85px;
-   
+    /* gap: 5px; */
 }
 
+
 .link a{
+    display: flex;
+    align-items: center;
+    margin-left: 102px;
     text-decoration: none;
     color: #1D1D1D;
     font-size: 15px;
@@ -90,7 +103,7 @@ html,body,.container{
 }
 
 .hero{
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .hero-1{
@@ -104,16 +117,17 @@ html,body,.container{
 
 .hero-2{
     margin-top: 20px;
-    width: 80%;
+    width: 75%;
     border-radius: 20px;
     background-color: #1d1d1dc6;
     padding: 30px;
 }
 
 .btn-1{
+    gap: 15px;
     font-size: 12px;
     padding: 10px;
-    height: 35px;
+    height: 40px;
     width: 260px;
     border-radius: 5px;
     background-color: rgb(0, 0, 0);
@@ -121,26 +135,35 @@ html,body,.container{
     box-shadow: 2px 2px 5px rgb(2, 2, 2);
 }
 
+.btn-1 img{
+    height: 20px;
+}
+
 .btn-2{
     gap: 1px;
 }
 
 .btn-0{
+    gap: 10px;
     font-size: 12px;
     padding: 10px;
-    height: 35px;
-    width: 80px;
+    height: 40px;
+    width: 100px;
     border-radius: 5px;
     background-color: rgb(0, 0, 0);
     color: rgba(255, 255, 255, 0.551);
     box-shadow: 2px 2px 5px rgb(2, 2, 2);
 }
 
+.btn-0 img{
+    height: 18px;
+}
+
 .btn-0{
     font-size: 12px;
     padding: 10px;
-    height: 35px;
-    width: 80px;
+    height: 40px;
+    width: 100px;
     border-radius: 5px;
     background-color: rgb(0, 0, 0);
     color: rgba(255, 255, 255, 0.551);
@@ -150,7 +173,7 @@ html,body,.container{
 .btn-3{
     font-size: 12px;
     padding: 10px;
-    height: 35px;
+    height: 40px;
     width: 160px;
     border-radius: 5px;
     background-color: rgb(0, 0, 0);
@@ -158,13 +181,64 @@ html,body,.container{
     box-shadow: 2px 2px 5px rgb(2, 2, 2);
 }
 
+.gap1{
+    gap: 50px;
+}
+
+.gap2{
+    gap: 10px;
+}
+
+.btn-3 img{
+    height: 15px;
+}
+
 .btn-4{
     font-size: 12px;
+    font-weight: 600;
     padding: 10px;
-    height: 35px;
-    width: 160px;
-    border-radius: 5px;
-    background-color: rgb(0, 0, 0);
-    color: rgba(255, 255, 255, 0.551);
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #C49C74;
+    color: black;
     box-shadow: 2px 2px 5px rgb(2, 2, 2);
+}
+
+.hero-3{
+    margin-left: 60%;
+    margin-top: 60px;
+    width: 37%;
+}
+
+.hero-3 h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.hero-3 p{
+    margin-top: 13px;
+    font-size: 14px;
+    color: #ffffffc6;
+}
+
+.line{
+    margin-right: 18px;
+    height: 104px;
+    width: 8px;
+    border-radius: 5px;
+    background-color: #C49C74;
+}
+
+.header-down{
+   
+    background-image: url(../assets/header-down.png);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 58%;
+    height: 5vh;
+    margin-top: 49px;
+    margin-left: 250px; 
 }
