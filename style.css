@@ -46,7 +46,7 @@ html,body,.container{
 
 .header{
     height: 100%;
-    background-image: url(../assets/hotel-room.png);
+    background-image: url(./asset/hotel-room.png);
     background-position: center;
     background-size: cover;
     object-fit: cover;
@@ -68,7 +68,7 @@ html,body,.container{
 }
 
 .link{
-    background-image: url(../assets/header-upp.png);
+    background-image: url(./asset/header-upp.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -231,14 +231,28 @@ html,body,.container{
 }
 
 .header-down{
-   
-    background-image: url(../assets/header-down.png);
+    gap: 10px;
+    background-image: url(./asset/header-down.png);
     background-position: center;
     background-size: cover;
     object-fit: cover;
     background-repeat: no-repeat;
     width: 58%;
     height: 5vh;
-    margin-top: 49px;
+    margin-top: 41px;
     margin-left: 250px; 
+}
+
+.capsule{
+    height: 8px;
+    width: 20px;
+    border-radius: 15px;
+    background-color: #CCCCCC;
+}
+
+.capsule-big{
+    height: 8px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: black;
 }
